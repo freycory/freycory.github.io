@@ -1,0 +1,24 @@
+{
+  "name": "freycory.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freycory/freycory.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freycory/freycory.github.io/issues"
+  },
+  "homepage": "https://github.com/freycory/freycory.github.io#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "mysql": "2.17.1"
+  }
+}
