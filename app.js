@@ -16,7 +16,7 @@ const port = process.env.PORT || 3000;
 
 const app = express().use(cors()).use(bodyParser.json());
 app.get("/", function (req, res) {
-  res.render("ui/index.js");
+  res.render("donations.js");
 });
 
 app.listen(port, () => {
