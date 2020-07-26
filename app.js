@@ -12,13 +12,12 @@ const donations = require("./donations");
 
 // connection.connect();
 
-app.get("/", function (req, res) {
-  res.render("index.ejs");
-});
-
 const port = process.env.PORT || 3000;
 
 const app = express().use(cors()).use(bodyParser.json());
+app.get("/", function (req, res) {
+  res.render("index.ejs");
+});
 
 app.listen(port, () => {
   console.log(`Express server listening on port ${port}`);
