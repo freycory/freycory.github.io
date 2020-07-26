@@ -15,9 +15,6 @@ const donations = require("./donations");
 const port = process.env.PORT || 3000;
 
 const app = express().use(cors()).use(bodyParser.json());
-app.get("/", function (req, res) {
-  res.location("/donations");
-});
 
 app.listen(port, () => {
   console.log(`Express server listening on port ${port}`);
