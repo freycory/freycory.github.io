@@ -4,7 +4,6 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "npm i -g --prefix ui && node app.js && npm start --prefix ui",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
